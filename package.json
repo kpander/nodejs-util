@@ -1,0 +1,34 @@
+{
+  "name": "@kpander/nodejs-util",
+  "description": "Common helper functions for nodejs code",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kpander/nodejs-util",
+  "author": {
+    "name": "Kendall Anderson",
+    "email": "<kpander@invisiblethreads.com>"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kpander/nodejs-util.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "Util.js",
+  "files": [
+    "Util.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "tmp": "^0.2.1"
+  }
+}
