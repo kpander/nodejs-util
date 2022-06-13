@@ -20,7 +20,8 @@
   },
   "main": "Util.js",
   "files": [
-    "Util.js"
+    "Util.js",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "test": "jest"
